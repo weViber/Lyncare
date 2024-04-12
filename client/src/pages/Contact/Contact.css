@@ -1,0 +1,291 @@
+.Contact{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.Contact_bg{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.Contact_bg p{
+  font-size: 0;
+}
+.Contact_bg p img{
+  display: block;
+  width: 100%;
+}
+
+/* Contact_text */
+.Context_form{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+.Contact_text{
+  
+  width: 63.8%;
+  margin: 0 auto;
+}
+.Contact_text h3{
+  color: #000;
+  font-family: Pretendard;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: -0.9px;
+}
+.Contact_text h4{
+  color: #00CDA8;
+  font-family: Pretendard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.48px;
+}
+
+/* text_list */
+.text_list{
+  display: flex;
+  justify-content: space-between;
+  
+}
+/* Company_info */
+
+.Company_info .middle{
+  color: #000;
+  font-family: Pretendard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+.Company_info {
+  width: 100%;
+  margin: 0 auto;
+}
+.Company_info ul li input{
+  width: 309px;
+  height: 46px;
+  text-indent: 20px;
+  border-radius: 4px;
+  border: 1px solid #8D8D8D;
+  color: #ADADAD;
+  font-family: Pretendard;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 14px;
+}
+
+/* Contact_info */
+
+.Contact_info .middle{
+  color: #000;
+  font-family: Pretendard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+
+.Contact_info ul li input{
+  width: 309px;
+  height: 46px;
+  text-indent: 20px;
+  border-radius: 4px;
+  border: 1px solid #8D8D8D;
+  color: #ADADAD;
+  font-family: Pretendard;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 14px;
+}
+.Contact_info ul li .name{
+  width: 179px;
+}
+
+/* Inquiry_details */
+
+.Inquiry_details p{
+  width: 638px;
+  height: 284px;
+  border-radius: 4px;
+}
+.Inquiry_details p textarea{
+  position: relative;
+  width: 638px;
+  height: 284px;
+  border-radius: 4px;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #ADADAD;
+  font-family: Pretendard;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  vertical-align: baseline;
+  padding: 17px 20px;
+  text-align: left;
+  word-break: break-all;
+  resize: none;
+}
+.Inquiry_details button{
+  width: 125px;
+  height: 50px;
+  border: 1px solid #000;
+  background: #000;
+  box-sizing: border-box;
+  color: #FFF;
+  font-family: Pretendard;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 176.471% */
+  letter-spacing: -0.51px;
+}
+
+/* Lyncare_Contact */
+.Lyncare_Contact{
+  display: block;
+  width: 31.6%;
+}
+.Lyncare_Contact_bg{
+  display: block;
+  width: 316px;
+  height: 640px;
+  background-image: url(./../../components/images/Contact/lyncare_contact.png);
+  background-size: contain;
+  margin-top: 100px;
+}
+.Lyncare_Contact_bg h5{
+  color: #000;
+font-family: Pretendard;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.6px;
+text-indent: 36px;
+padding-top: 25px;
+}
+
+.Lyncare_Contact_bg ul li{
+  color: #000;
+  font-family: Pretendard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.48px;
+  margin-bottom: 15px;
+  text-indent: 60px;
+}
+.Lyncare_Contact_bg_m{
+  display: none;
+}
+.ContactBtn {
+  cursor: pointer;
+}
+@media  (max-width: 1100px){
+  .Context_form{
+    display: block;
+  }
+  .Lyncare_Contact{
+    width: 100%;
+  }
+  .Lyncare_Contact_bg{
+    margin:  0 auto;
+    display: none;
+  }
+
+  .Contact_text{
+    width: 90%;
+    justify-content: unset;
+  }
+  .Company_info{
+    margin-left: 10px;
+  }
+  .Company_info , .Contact_info {
+   width: 60%;
+  }
+  
+  .Company_info ul li input , .Contact_info input{
+      width: 80%;
+  }
+  .Contact_info ul , .Contact_info ul li input{
+    width: 80%;
+  }
+  .Lyncare_Contact_bg_m{
+    display: block;
+    width: 90%;
+    height: auto;
+    background-image: url(./../../components/images/Contact/Contact_Mbg.png);
+    background-position: 90% 10%;
+    background-size: cover;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+  }
+  .Lyncare_Contact_bg_m h5{
+    color: #000;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+  .Lyncare_Contact_bg_m ul{
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+  .Lyncare_Contact_bg_m ul img{
+    vertical-align: middle;
+    margin-right: 6px;
+  }
+  .Lyncare_Contact_bg_m ul li{
+    color: #000;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.48px;
+    margin-bottom: 15px;
+    
+    
+  }
+
+}
+
+@media  (max-width: 800px){
+  .text_list{
+    display: block;
+  }
+  .Company_info , .Contact_info{
+    width: 100%;
+    margin-left: 0px;
+  }
+  .Contact_info ul{
+    width: 100%;
+  }
+  .Contact_info ul li{
+    width: 100%;
+  }
+  .Inquiry_details , .Inquiry_details p , .Inquiry_details p textarea{
+    width: 100%;
+  }
+}

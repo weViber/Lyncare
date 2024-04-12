@@ -1,0 +1,171 @@
+.Footer{
+    background-color: #020202;
+    font-family: 'pretendard';
+    padding:  0 50px;
+   
+    
+}
+.Footer_logo {
+    padding-top: 10px;
+    text-indent: -9999px;
+}
+.Footer_logo img{
+    display: block;
+    width: 170px;
+    height: auto;
+    padding-top: 7px;   
+}
+.Footer_1{
+    position: relative;
+    border-bottom: 1px solid #454545;
+}
+.family_site{
+    display: inline-block;
+   
+    position: absolute;
+    right: 0;
+    top:22px;
+    display: flex;
+}
+.family_site a{
+    min-width: 230px;
+    display: block;
+    position: relative;
+    height: 50px;
+    background: #000;
+    color: #666;
+    font-size: 16px;
+    line-height: 50px;
+    border: 1px solid #666;
+    padding: 0 15px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: left;
+}
+
+
+.family_site a span{
+    position: absolute;
+    right: 20px;
+}
+
+.Footer_1 .family_site a:nth-child(1){
+    text-indent: 20px;
+}
+
+.webAcc{
+    position: absolute;
+    top:55px;
+    right: 0;
+  
+}
+.webAcc span img{
+    display: block;
+    width: auto;
+    height: 50px;
+}
+
+.address{
+    position: relative;
+    width: 100%;
+    text-align: left;
+    padding: 0 0 15px;
+}
+.address p {
+    font-size: 16px;
+    font-family:'pretendard';
+    color: #666666;
+}
+.address p span{
+    display: inline-block;
+    width: 1px;
+    height: 16px;
+    background: #333;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+    margin: 0 10px;
+}
+.address_1 , .address_2{
+    display: block;
+ 
+}
+.address_1 {
+    padding-top: 5px;
+    margin-bottom: 35px;
+}
+.address_2{
+    margin-top: -15px;
+    margin-bottom: -5px;
+}
+.copyrigth{
+    position: absolute;
+    right: 0;
+    top: 100px;
+    z-index: 1;
+}
+
+@media (max-width: 1180px){
+    .webAcc{
+    top: -65px;
+    right: 328px;
+    }
+    .Footer_logo img{
+    padding-top: 10px;
+     width: 150px;    
+    }
+    .webAcc{
+        display: none;
+    }
+}
+
+@media  (max-width: 1050px){
+   
+    .copyrigth{
+        position: unset;
+    }
+}
+@media  (max-width: 820px){
+    .address_1 , .address_2{
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+    .address p span{
+        display: none;
+    }
+    .family_site{
+        position: unset;
+        padding-bottom: 22px;
+        display: block;
+        text-align: center;
+    }
+    .family_site a{
+        text-align: center;
+    }
+}
+@media  (max-width: 630px){
+    .Footer {
+        padding: 0 5px;
+    }
+    .Footer_1, .address {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .Footer_logo img{
+        width: 130px;
+    }
+  
+    .address{
+        padding-bottom: 3px;
+    }
+    .address p{
+        display: block;
+        font-size: 15px;
+    }
+    .address p span{
+        display: none;
+    }
+
+}

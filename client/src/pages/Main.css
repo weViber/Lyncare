@@ -1,0 +1,410 @@
+@font-face {
+    font-family: 'Pretendard';
+    src: url('./../fonts/Pretendard-Medium.woff2') , url('./../fonts/Pretendard-Medium.woff')
+    format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Blod';
+    src: url('./../fonts/Pretendard-Bold.woff') , url('./../fonts/Pretendard-Bold.woff2')
+    format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.Main{
+    font-family: 'Pretendard';
+}
+.section2 , .section3 , .section4 {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* section1 메인이미지 */
+.section1{
+    width: 100%;
+}
+.Main_bg{
+    position:relative;
+    width: 100%;
+    max-height: 850px;
+    overflow: hidden;
+    z-index:-100px
+}
+.Main_bg img{
+    width: 100%;
+    max-height: auto;
+    overflow: hidden;
+}
+.section1_text{
+   position:relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: -250px;
+    margin-bottom: 150px;
+    z-index: 2000;
+}
+h2{ 
+    max-width: 1000px;
+   
+    margin: 0 auto;
+    
+    text-align: left;
+}
+.section_text1{
+    top: 60%;
+    color: #FFF;
+    font-family: Pretendard;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 39px; /* 130% */
+    letter-spacing: -0.9px;
+    z-index: 1500;
+}
+.section_text2{
+    max-width: 1000px;
+    height: 73px;
+    flex-shrink: 0;
+    top: 70%;
+    color: #FFF;
+    font-family: pretendard;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 39px; /* 130% */
+    letter-spacing: -0.9px;
+    z-index: 2000;
+}
+
+/* section2 디블럭필터 우리동네정비소 박스 */
+.section2{
+    display: block;
+}
+.section2 h5{
+    color: #939393;
+    font-family: Pretendard;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 176.471% */
+    letter-spacing: -0.51px;
+    text-align-last: left;
+}
+
+.products_site{
+    padding-bottom: 20px;
+}
+.products_site a{
+    border: 1px solid #D8D8D8;
+    color: #000;
+font-family: Pretendard;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 176.471% */
+letter-spacing: -0.51px;
+
+padding: 15px;
+padding-right: 20px;
+}
+.products_site a span{
+    width: 12px;
+    font-weight: 100;
+    margin-right: 7px;
+}
+
+
+/* 박스3개 일상 공동체 연구개발 */
+.Main_box_list{
+    margin-top: 30px;
+   display: flex;
+}
+.Main_box{
+    display: block;
+    width: 328px;
+height: 329px;
+border-radius: 24px;
+text-align:left;
+
+}
+
+.Main_box1{
+    background-image: url(./../components/images/Main_dailylife.png);
+    background-size: cover;
+    margin-right: 7px;
+}
+.Main_box2{
+    background-image: url(./../components/images/Main_community.png);
+    background-size: cover;
+    margin-right: 7px;
+}
+.Main_box3{
+    background-image: url(./../components/images/Main_development_research.png);
+    background-size: cover;
+}
+
+.Main_box p , .Main_box h3{
+    width: 261px;
+    margin: 0 auto;
+}
+.Main_box p{
+    font-family: Pretendard;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: -0.45px;
+margin-top: 208px;
+}
+.Main_box h3{
+    font-family: Pretendard;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 39px;
+letter-spacing: -0.78px;
+}
+
+
+
+
+/* products 디블럭필터 */
+.products{
+   
+    max-width: 1000px;
+    display: block;
+    margin: 0 auto;
+}
+.products_bg{
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: -70px;
+   
+}
+
+ .products_bg img{
+    width: 100%;
+    height:  auto;
+ 
+}
+.products_bg h4{
+    position: absolute;
+    top: 45px;
+    left: 43px;
+    width: 100%;
+    height: 45px;
+    color: #000;
+    font-family: 'Pretendard-Bold';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 26px; 
+    letter-spacing: -0.51px;
+}
+.products_bg h3{  
+    position: absolute;
+    top: 90px; 
+    left: 43px;
+    height: 32px;
+    font-family: Pretendard;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 39px; 
+    letter-spacing: -0.9px;
+ 
+}
+
+
+/* section3 */
+.section3{
+    display: block;
+    max-width: 1000px;
+    text-align: center;
+    margin-top: 90px;
+}
+.section3 p{
+    color: #A4A4A4;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.6px;
+    margin-bottom: 28px;
+}
+.section3 p span{
+    color: #A4A4A4;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; 
+    letter-spacing: -0.6px;
+    margin-bottom: 1px;
+  
+}
+
+/* section4 우리동네 */
+.section4{
+    margin-top: 76px;
+    
+}
+.section4_img{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    box-shadow: 2px 2px 14px 2px rgba(0, 122, 235, 0.12);
+    box-sizing: border-box;
+}
+.section4_img p{
+    font-size: 0;
+    text-indent: -9999px;
+}
+.section4_img p:nth-child(1){
+    width: 39.5%;
+    height: auto;
+    margin-left: 6%;
+    margin-right: 2.1%;
+  
+}
+.section4_img p:nth-child(2){
+    width: 52.4%;
+    height: auto;
+}
+.section4_img p img{
+    display: block;
+    width: 100%;
+}
+
+.section4 .section4_text{
+    margin-top: 25px;
+}
+.section4 .section4_text .products_site{
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media  (max-width: 1200px){
+    .section1_text{
+        margin-top: -19vh;
+        margin-left: 5vw;
+        margin-bottom: 60px;
+    }
+    .section_text2 br{
+        display: none;
+    }
+}
+
+
+@media  (max-width: 1100px){
+    .section2, .products , .products_bg, .section3, .section4{
+        width: 90%;
+    }
+    .Main_box_list{
+        justify-content: space-between;
+    }
+    .Main_box {
+        width: 32%;
+        text-align: center;
+    }
+    .Main_box h3{
+        font-size: 24px;
+    }
+    .Main_box p{
+        font-size: 13px;
+        text-align: center;
+        line-height: 18px;
+        margin-top: 246px;
+    }
+
+    .section3 p{
+        font-size: 16px;
+    }
+
+    .products_bg h4{ 
+        width: 100%;
+        position: unset;
+        display: block;
+        text-align: center;
+        margin-bottom: -20px;
+    }
+    .products_bg h3{
+        position: unset;
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+@media  (max-width: 900px){
+    .Main_box_list{
+        display: block;
+    }
+    .Main_box{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        padding-top: 20vh;
+    }
+    .Main_box_text{
+      display: block;
+      width: 100%;
+      margin-top: 25vh;
+    }
+    .Main_box p{
+        width: 100%;
+        position: unset;
+        padding: 0;
+        margin: 0;
+
+    }
+}
+
+@media  (max-width: 700px){
+    .section1_text h2 , .section1_text h2 span{
+        font-size: 20px;
+    }
+    .section1_text .section_text1{
+        margin-top: 40px;
+    }
+    .section1_text{margin-bottom: 0;}
+    .products_bg h3{
+        font-size: 26px;
+        line-height: 2;
+        padding-bottom: 7px;
+    }
+    .products_site a{
+        display: block;
+    }
+    .Main_box h3{
+        line-height: 43px;
+    }
+    .Main_box p{
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .Main_box_text p{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .Main_box_text br{
+        display: inline-block;
+        content: " ";
+        padding: 0 2px;
+    }
+    .products_site{
+        padding: 0;
+    }
+
+}

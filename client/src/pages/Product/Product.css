@@ -1,0 +1,370 @@
+.Product{
+    width: 100%;
+}
+.Product_Wrap{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.Product_bg{
+    max-width: 1200px;
+    font-size: 0;
+}
+.Product_bg img{
+    display: block;
+    width: 100%;
+}
+
+
+hr{
+    width: 100%;
+    height: 1;
+    background-color: #DDD;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.hr2 {
+    width: 100%;
+    height: 1;
+    background-color: #000;
+    margin-top: 75px;
+    margin-bottom: 40px;
+}
+.hr3{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+/* CabinFilter */
+.CabinFilter{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+.CabinFilter_1 h3{
+    color: #000;
+    font-family: Pretendard;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.9px;
+}
+.CabinFilter_1 span{
+    color: #000;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.6px;
+}
+.CabinFilter_1 p{
+    color: #000;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 162.5%; 
+    letter-spacing: -0.48px;
+}
+.CabinFilter_2{
+    width: 40%;
+    font-size: 0;
+}
+.CabinFilter_2 p img{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Dblock_filter */
+.Dblock_filter h3{
+    color: #000;
+    font-family: Pretendard;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%; 
+    letter-spacing: -0.9px;
+}
+.Dblock_filter h3 span{
+    color: #000;
+    font-family: Pretendard;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 152.941%;
+    letter-spacing: -0.51px;
+    
+}
+/* br 무효화 */
+.Dblock_filter br , .wooridongne br{
+    display: inline-block;
+    content: " ";
+    padding: 0 2px;
+}
+.Dblock_filter p{
+    font-size: 0;
+}
+.Dblock_filter p img{
+    display: block;
+    width: 100%;
+}
+.Dblock_filter br {
+    display: none;
+}
+.Dblock_filter span{
+    margin-left: 20px;
+}
+
+/* Special */
+
+.Special h3{
+    color: #000;
+    font-family: Pretendard;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 39px; 
+    letter-spacing: -0.9px;
+}
+.Special h3 span{
+    color: #000;
+    font-family: Pretendard;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: -0.9px;
+}
+.Special1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.Special1_1{
+    width: 50.7%;
+    height: 225px;
+    border-radius: 25px;
+    background: #F7F7F7;
+    box-sizing: border-box;
+    
+}
+.Special1_1 h3{
+    color: #000;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px; /* 320% */
+    letter-spacing: -1px;
+    margin-left: 23px;
+}
+.Special1_1 h3 span{
+    color: #00CDA8;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -1px;
+}
+.Special1_1 p{
+    color: #000;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: -0.48px;
+    margin-left: 25px;
+}
+.Special1_1 p span{
+    color: #000;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: -0.48px;
+}
+
+.Special1_2{
+    width: 48.5%;
+    font-size: 0;
+    
+}
+.Special1_2 img{
+    display: block;
+    width: 100%;
+}
+.Special5 .Special5_link {
+    margin-top: 30px;
+}
+.Special5 .Special1_1 p a{
+    color: #000;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: -0.48px;
+    border-bottom: 1px solid #000;
+   
+}
+
+/* Platform */
+
+.Platform h3{color: #000;
+    font-family: Pretendard;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.9px;}
+.Platform h3 span{color: #000;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.6px;}
+.Platform p{color: #000;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: -0.48px;}
+
+/* wooridongne */
+
+.wooridongne h3{
+    color: #000;
+    font-family: Pretendard;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 39px; /* 130% */
+    letter-spacing: -0.9px;
+}
+.wooridongne h3 span{
+    color: #000;
+    font-family: Pretendard;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 152.941% */
+    letter-spacing: -0.51px;
+}
+.wooridongne p{
+    display: block;
+    width: 100%;
+    font-size: 0;
+    margin-bottom: 40px;
+}
+.wooridongne p img{
+    display: block;
+    width: 100%;
+}
+
+@media  (max-width: 1100px){
+    .Product_Wrap{
+        width: 90%;
+    }
+    .CabinFilter{
+        display: block;
+    }
+    .CabinFilter_2{
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .Special h3{
+        margin-top: 10px;
+    }
+    .Special .Special_Dblock{
+        margin-top: 35px;
+    }
+
+    .Special1{
+        display:block;
+        
+    }
+    .Special1_1{
+        display:inline-block;
+        width: 100%;
+        height: auto;   
+    }
+    .Special1_1 p{
+        margin-right: 25px;
+    }
+    .Special1_2{
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    br{
+        display: inline-block;
+        content: " ";
+        padding: 0 2px;
+     }
+     .Dblock_filter br{
+        display: block;
+     }
+
+     .Dblock_filter h3{
+        margin-bottom: 45px;
+     }
+     .Dblock_filter span{
+       margin-top: 30px;
+       padding-bottom: 10px;
+       margin-left: 0;
+       text-indent: -20px;  
+     }
+     .CabinFilter_1 br{
+        width: 100%;
+        display:none;
+     }
+
+}
+
+@media  (max-width: 800px){
+    .Dblock_filter h3 {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .Dblock_filter h3 span{
+        display: none;
+    }
+    .Special1_1 h3{
+        font-size: 18px;
+        line-height: 15px;
+        margin-top: 7px;
+        margin-left: 15px;
+        margin-bottom: -5px;
+    }
+    .Special1_1 h3 span{
+        font-size: 18px;
+    }
+    .Special1_1 p{
+        margin-left: 15px;
+        line-height: 25px;
+    }
+    .Special1_1 p , .Special1_1 p span {
+        
+        line-height: 25px;
+    }
+    .wooridongne br{
+        display: block;
+    }
+    .wooridongne h3 span{
+        margin-left: 3px;
+    }
+    .Special5 .Special5_link{
+        margin-top: 5px;
+    }
+  
+}

@@ -1,0 +1,266 @@
+.About {width: 100%;}
+.Blod{
+    font-weight: bold;
+}
+.CEO{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.About_bg{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.About_bg img{
+    display: block;
+    width: 100%;
+
+}
+/* ceo */
+
+.CEO h3{
+    color: #BCBCBC;
+    font-family: Pretendard;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.9px;
+}
+.CEO h4{
+    color: #000;
+    font-family: Pretendard;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.78px;
+}
+.CEO h4 span{
+    color: #00BD9B;
+    font-family: 'Pretendard';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.78px;
+}
+.CEO p {
+    color: #000;
+    font-family: 'Pretendard';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px; /* 143.75% */
+    letter-spacing: -0.48px;
+}
+.CEO p img{
+    display: block;
+    max-width: 300px;
+}
+.CEO p:nth-child(2){
+    margin-top: auto;
+    margin-left: 100px;
+}
+.CEO p:nth-child(3){
+    font-size: 0;
+}
+
+.CEO_text{
+    display: flex;
+    justify-content: space-between;
+}
+.CEO p span {
+    font-weight: 600;
+}
+hr{
+    max-width: 1000px;
+    height: 1px;
+    background-color: #000;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/* CoreValue */
+.CoreValue{
+    max-width:1000px;
+    margin: 0 auto;
+}
+.CoreValue p{
+    font-size: 0;
+}
+.CoreValue p img{
+    display: block;
+    width: 100%;
+}
+.hr2{
+    max-width: 1000px;
+    height: 1px;
+    background-color: #DDD;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.CEO_text_img{
+    font-size: 0;
+    display: none;
+}
+
+/* History */
+.History_list , .History_bg{
+    font-size: 0;
+}
+
+.History{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.History h3{
+    color: #000;
+    font-family: Pretendard;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    letter-spacing: -0.9px;
+}
+.History h3 span{
+    color: #000;
+    font-family: Pretendard;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 152.941%;
+    letter-spacing: -0.51px;
+}
+.History_list , .History_bg{
+    max-width: 100%;
+}
+.History_list p img{
+    display: block;
+    width: 70%;
+}
+.History_bg {
+    max-width: 1000px;
+    border-bottom: 1px solid #DDD;
+    box-sizing: border-box;
+    margin-top: -18vh;
+}
+.History_bg p img{
+    display: block;
+    max-width: 37.9%;
+    margin-left: auto;
+}
+
+/* Certifications */
+.Certifications{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+.Certifications h3{
+    color: #000;
+    font-family: Pretendard;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%; 
+    letter-spacing: -0.9px;
+}
+.Certifications h3 span{
+    color: #000;
+    font-family: Pretendard;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 152.941%; 
+    letter-spacing: -0.51px;
+}
+.Certifications p img{
+    display: block;
+    width: 100%;
+}
+.Certifications .Box{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0;
+}
+.Certifications .Box p img{
+    display: block;
+    max-width: 234px;
+}
+
+@media  (max-width: 1100px){
+    .CEO , .CoreValue , .History , hr , .Certifications{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .CEO_text{
+        display: inline-flex;
+        justify-content: space-evenly;
+    }
+    .CEO p span{
+        text-wrap: nowrap;
+    }
+    .CEO p:nth-child(1){
+        width: 80%;
+    }
+    .CEO p:nth-child(2){
+        width: 1%;
+        text-indent:-100px;
+    }
+    .CEO p:nth-child(3){
+        width: 40%;
+    }
+    
+}
+@media  (max-width: 900px){
+    html,
+    body{
+    width:100%;
+    overflow-x:hidden;
+    }
+    .CEO_text{
+      display: block;
+    } 
+
+    .CEO p img{
+        display: none;
+    }
+    .CEO .CEO_text_img{
+        display: block;
+        font-size: 0;
+        text-indent: 100%;
+    }
+    .CEO_text_img img{
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media  (max-width: 800px){
+
+    .CEO , .CoreValue , .History , hr , .Certifications ,.CEO p:nth-child(1) ,.CEO p:nth-child(2) ,.CEO p:nth-child(3){
+        width: 90%;
+    }
+    .History_bg{
+        margin-top: -50px;
+    }
+    
+}
+
+@media  (max-width: 600px){
+    .CEO_text_img img{
+        width: 80%;
+    }
+    .History_list p img{
+        width: 95%;
+    }
+    .History_bg p img{
+        display: block;
+        width: 90%;
+    }
+}

@@ -6,11 +6,11 @@ const { PORT, WSPORT } = require('./src/common');
 
 const connectToDatabase = require('./src/mongo');
 
-connectToDatabase()  
+connectToDatabase()
     .then(() => {
         app.listen(PORT, () => {
-            console.log(`Main Server is listening at ${PORT}`);
-        }) 
+            console.log(`Server is listening at ${PORT}`);
+        })
         server.listen(WSPORT, () => {
             console.log(`WebSocket Server is listening at ${ WSPORT }`);
         });
